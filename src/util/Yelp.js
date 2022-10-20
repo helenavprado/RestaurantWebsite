@@ -2,7 +2,7 @@ const apiKey =
   "Q_o1DAIUnGqrQoiKf4G9H8tWjsNMrxH7EyyKkEyaizkzQRHE4V6PtNHk-uO7aQ8LEMVliqzJQr8sZn0bHQq4OKvOQwLXcSWfdPvKgN_CPTH1dzMgXzgKx21ssHVPY3Yx";
 // const businessEndPoint = "https://api.yelp.com/v3/businesses/search";
 // const businessQuery = `?term=${term}&location=${location}&sort_by=${sortBy}`;
-// const businessFetch = businessEndPoint + businessFetch;
+// const businessFetch = businessEndPoint + businessQuery;
 
 let yelp = {
   search(term, location, sortBy) {
